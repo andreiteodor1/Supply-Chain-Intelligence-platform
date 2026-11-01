@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.claude/
+
+# Generated artefacts (rebuilt by `python data/generate_cpg_data.py` and `python -m src.ml_pipeline`)
+data/*.duckdb
+data/*.duckdb.wal
+models/
